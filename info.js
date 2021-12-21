@@ -11,6 +11,9 @@ function goTog(event, n){
     tog[n]=0;
   }
 }
+window.onload=function(){
+  goTog(event, 0);
+}
 
 function infoZoomIn(event, n) {
   event.target.style.zIndex = 1;
