@@ -26,6 +26,13 @@
   text-align: center;
 }
 
+#campaign_area{
+  text-align: center;
+}
+
+#online_area{
+  text-align: center;
+}
 a{
   text-decoration-line: none;
   color: inherit;
