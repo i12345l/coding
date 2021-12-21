@@ -13,10 +13,6 @@
 #logo_table{
   border: 30px;
 }
-
-<<<<<<< HEAD
-#book_area{
-=======
 #intro{
   display: flex;
   justify-content: center;
@@ -27,11 +23,6 @@
   background-color: azure;
 }
 
-#Coding_area{
-  position: relative;
-  top: 500%;
-  height: 5%;
-  background-color: aqua;
->>>>>>> f8bcfe5794e7556ce90e431a5d75a0b80dd4c995
+#book_area{
   text-align: center;
 }
