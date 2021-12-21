@@ -1,6 +1,6 @@
 
 #logo_area{
-  background-color:cornflowerblue;
+  background-color:#333333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,22 +13,16 @@
 #logo_table{
   border: 30px;
 }
-
 #intro{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50%;
+  height: 70%;
   border: 0;
   background-color: azure;
 }
 
-#Coding_area{
-  position: relative;
-  top: 500%;
-  height: 5%;
-  background-color: aqua;
+#book_area{
   text-align: center;
-  justify-content: center;
 }
