@@ -22,3 +22,11 @@
   margin: 20px;
   height: 250px;
 }
+
+#campaign_detail{
+  visibility: hidden;
+  background-color: #ffffff;
+  height: 0vh;
+  transition: all 0.3s;
+  border-bottom: solid #333333 3px;
+}

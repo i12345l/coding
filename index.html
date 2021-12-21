@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="campaign.css" />
   <link rel="stylesheet" href="book.css" />
   <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="info.js"></script>
   <title>CODING</title>
 </head>
 <body style="margin:0">
@@ -36,21 +37,24 @@
     <img
       class="img-info"
       src="image/인포그래픽/001.png"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 0)"
+      onmouseleave="infoZoomOut(event)"
     />
     <img
       class="img-info"
       src="image/인포그래픽/002.png"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 1)"
+      onmouseleave="infoZoomOut(event)"
     />
     <img
       class="img-info"
       src="image/인포그래픽/0001.jpg"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 2)"
+      onmouseleave="infoZoomOut(event)"
     />
+    </div>
+    <div id="campaign_detail"">
+      인포그래픽 설명
     </div>
   </div>
 
