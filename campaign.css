@@ -1,0 +1,24 @@
+#campaign_title{
+  padding :18px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  background-color: #444444;
+}
+
+#campaign_area{
+  background-color: #333333;
+  color:aliceblue;
+}
+
+#campaign_img{
+  padding-bottom: 30px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-info {
+  margin: 20px;
+  height: 250px;
+}
