@@ -1,17 +1,21 @@
+@charset "UTF-8";
+
 #logo_area{
   background-color:#333333;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 7%;
+  height: 6.5%;
   border: 0;
   color: aliceblue;
+  font-size: 14px;
 }
 
-#logo_table{
-  border: 30px;
+.logo_button{
+  margin:50px;
 }
+
 #intro{
   display: flex;
   justify-content: center;
@@ -19,7 +23,20 @@
   width: 100%;
   height: 70%;
   border: 0;
-  background-color: azure;
+  background-color: #cccccc;
+}
+
+#intro_image {
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }
 
 #book_area{
@@ -33,6 +50,7 @@
 #online_area{
   text-align: center;
 }
+
 a{
   text-decoration-line: none;
   color: inherit;
