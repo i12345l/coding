@@ -13,3 +13,12 @@
 #logo_table{
   border: 30px;
 }
+
+#Coding_area{
+  position: relative;
+  top: 500%;
+  height: 5%;
+  background-color: aqua;
+  text-align: center;
+  justify-content: center;
+}
