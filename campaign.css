@@ -22,3 +22,51 @@
   margin: 20px;
   height: 250px;
 }
+
+.campaign_in{
+  padding:20px;
+  font-size: 20px;
+}
+
+#campaign_detail{
+  padding-top: 20px;
+  visibility: hidden;
+  background-color: #ffffff;
+  height: 0vh;
+  transition: all 0.3s;
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+#campaign_detail:nth-child(1){
+  flex-basis: 1;
+}
+#campaign_detail:nth-child(2){
+  flex-basis: 1;
+}
+#campaign_detail:nth-child(3){
+  flex-basis: 300px;
+}
+#campaign_detail:nth-child(4){
+  flex-basis: 1;
+}
+
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@keyframes fadeout {
+  from {
+      opacity:1;
+  }
+  to {
+      opacity:0;
+  }
+}

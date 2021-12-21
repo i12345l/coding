@@ -5,11 +5,12 @@
   <link rel="stylesheet" href="book.css" />
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="book.js"></script>
+  <script type="text/javascript" src="info.js"></script>
   <title>CODING</title>
 </head>
 <body style="margin:0">
   <div id="logo_area">
-    <a href="#logo" class="logo_button">Coding</a>
+    <a href="#logo" class="logo_button">CODING</a>
     <a href="#book_area" class="logo_button">책 소개 활동</a>
     <a href="#campaign_area" class="logo_button">캠페인</a>
     <a href="#lecture_area" class="logo_button">신기술 강의</a>
@@ -37,29 +38,42 @@
     <img
       class="img-info"
       src="image/인포그래픽/001.png"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 0)"
+      onmouseleave="infoZoomOut(event)"
     />
     <img
       class="img-info"
       src="image/인포그래픽/002.png"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 1)"
+      onmouseleave="infoZoomOut(event)"
     />
     <img
       class="img-info"
       src="image/인포그래픽/0001.jpg"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="infoZoomIn(event, 2)"
+      onmouseleave="infoZoomOut(event)"
     />
     </div>
+    <div id="campaign_detail">
+      <div class="campaign_in">
+      </div>
+      <img
+        class="campaign_in"
+        id="c_detail_img"
+        src="image/인포그래픽/비트코인 1짤.jpg"
+        height="550px"
+      />
+      <div class="campaign_in" id="c_detail_text">
+        text
+      </div>
+      <div class="campaign_in">
+      </div>
+    </div>
   </div>
-
   <div id="online_area">
     응애 나는 온라인 젖찌
     <hr width="1000px">
     헤으으응응 맘마조 쯉쯉,,
   </div>
-
 </body>
 </html>
