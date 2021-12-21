@@ -4,10 +4,13 @@ var tog = new Array(0,0,0)
 
 function goTog(event, n){
   if(tog[n]==0){
+    infoClickOff(event);
+    tog[0]=0;tog[1]=0;tog[2]=0;
     infoClickOn(event, n);
     tog[n]=1;
   }else{
     infoClickOff(event);
+    infoZoomOut(event);
     tog[n]=0;
   }
 }
