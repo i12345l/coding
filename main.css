@@ -26,3 +26,8 @@
 #book_area{
   text-align: center;
 }
+
+a{
+  text-decoration-line: none;
+  color: inherit;
+}
