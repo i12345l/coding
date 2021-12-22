@@ -89,16 +89,3 @@
       opacity:1;
   }
 }
-
-@media (max-width: 900px) {
-  .img-info {
-    margin: 20px;
-    height: 200px;
-  }
-}
-
-@media (max-width: 600px) {
-  #c_detail_img{
-    height: 300px;
-  }
-}
