@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+#c_detail_text{
+  max-width: 600px;
+}
+
 .img-info {
   margin: 20px;
   height: 250px;
@@ -34,10 +38,12 @@
   background-color: #ffffff;
   height: 0vh;
   transition: all 0.3s;
-  text-align: center;
+  text-align: left;
   color: black;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex:1;
 }
 
 #campaign_detail:nth-child(1){
