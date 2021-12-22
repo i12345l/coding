@@ -44,6 +44,9 @@ html {
 ul.imgs{
   padding: 0;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   text-align: center;
 }
 ul.imgs li{
@@ -53,6 +56,9 @@ ul.imgs li{
   text-align: center;
   padding: 0;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition-delay: 0.9s;
 }
 .bullets{
