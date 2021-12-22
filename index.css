@@ -61,32 +61,6 @@ ul.imgs li{
   transition-delay: 0.9s;
 }
 
-.main_bannerr input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
-  background-color: #fff;
-}
-.main_banner input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
-  background-color: #fff;
-}
-.main_banner input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
-  background-color: #fff;
-}
-
-.main_banner input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
-  opacity: 1;
-  transition: 1s;
-  z-index: 1;
-}
-.main_banner input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
-  opacity: 1;
-  transition: 1s;
-  z-index: 1;
-}
-.main_banner input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
-  opacity: 1;
-  transition: 1s;
-  z-index: 1;
-}
-
 #book_area{
   text-align: center;
 }
