@@ -65,7 +65,7 @@ function infoClickOn(event, n){
   document.getElementById("campaign_detail").style.margin = "15px 0px";
   document.getElementById("campaign_detail").style.padding = "30px 0px";
   document.getElementById("campaign_detail").style.visibility = "visible";
-  document.getElementById("campaign_detail").style.height = "90vh";
+  document.getElementById("campaign_detail").style.height = "80vh";
 
   var x=document.getElementsByClassName("campaign_in");
   for(var i=0; i<x.length; i++){
