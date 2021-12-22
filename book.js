@@ -1,3 +1,5 @@
+var image_list = new Array("image/도서/조윤성 인공지능을 위한 수학.jpg","image/도서/김서현 처음 배우는 암호화.jpg")
+
 function bookZoomIn(event, n) {
     event.target.style.zIndex = 1;
     event.target.style.transform = "scale(1.2)";
@@ -14,19 +16,18 @@ function bookZoomOut(event) {
     event.target.style.animation = "fadein_s 0.5s";
 }
 
-function BookClickOn(event){
-    document.getElementById("modal").style.animation="fadein 0.3s";
-    document.getElementById("modal").style.display="block";
-}
-function BookClickOff(event){
-    document.getElementById("modal").style.display="none";
+function BookClickOn(event, n){
+    document.getElementById("Book_img").src=image_list[n];
+    var modal=document.getElementsByClassName("Book_Modal");
+    for(var i=0; i<modal.length; i++){
+        modal[i].style.animation="fadein 0.3s";
+        modal[i].style.display="block";
+    }
 }
 
-/*
-$(function(){ 
-    $("button").click(function(){
-    });
-    $(".modal_content").click(function(){
-      $(".modal").fadeOut();
-    });
-});*/
+function BookClickOff(event){
+    var modal=document.getElementsByClassName("Book_Modal");
+    for(var i=0; i<modal.length; i++){
+        modal[i].style.display="none";
+    }
+}
