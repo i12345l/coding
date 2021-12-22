@@ -6,6 +6,7 @@
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="book.js"></script>
   <script type="text/javascript" src="info.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <title>CODING</title>
 </head>
 <body style="margin:0">
@@ -51,21 +52,23 @@
       class="img-info"
       src="image/인포그래픽/001.png"
       onmouseenter="infoZoomIn(event, 0)"
-      onmouseleave="infoZoomOut(event)"
+      onmouseleave="infoZoomOut(event, 0)"
       onclick="goTog(event,0)"
     />
     <img
+      id="info_img2"
       class="img-info"
       src="image/인포그래픽/002.png"
       onmouseenter="infoZoomIn(event, 1)"
-      onmouseleave="infoZoomOut(event)"
+      onmouseleave="infoZoomOut(event, 1)"
       onclick="goTog(event,1)"
     />
     <img
+    id="info_img3"
       class="img-info"
       src="image/인포그래픽/0001.jpg"
       onmouseenter="infoZoomIn(event, 2)"
-      onmouseleave="infoZoomOut(event)"
+      onmouseleave="infoZoomOut(event, 2)"
       onclick="goTog(event,2)"
     />
     </div>
