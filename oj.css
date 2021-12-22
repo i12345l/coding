@@ -1,0 +1,18 @@
+#oj_detail{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #e8ece5;
+  color: #a0a19d;
+}
+
+#oj_title{
+  height: 50px;
+  background-color: #a0a19d;
+  color: #e8ece5;
+  font-weight:bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
