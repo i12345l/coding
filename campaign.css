@@ -20,6 +20,8 @@
 
 #c_detail_text{
   max-width: 600px;
+  display: flex;
+  align-items: center;
 }
 
 .img-info {
@@ -42,22 +44,9 @@
   color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex:1;
 }
 
-#campaign_detail:nth-child(1){
-  flex-basis: 1;
-}
-#campaign_detail:nth-child(2){
-  flex-basis: 1;
-}
-#campaign_detail:nth-child(3){
-  flex-basis: 300px;
-}
-#campaign_detail:nth-child(4){
-  flex-basis: 1;
-}
 
 
 @keyframes fadein {

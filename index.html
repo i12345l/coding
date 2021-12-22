@@ -5,11 +5,9 @@
   <link rel="stylesheet" href="book.css" />
   <link rel="stylesheet" href="./dist/assets/owl.carousel.min.css"/>
   <link rel="stylesheet" href="./dist/assets/owl.theme.default.css"/>
-  <script src="http://code.jquery.com/jquery-latest.js%22%3E"></script>
   <script type="text/javascript" src="index.js"></script>
   <script type="text/javascript" src="book.js"></script>
   <script type="text/javascript" src="info.js"></script>
-  <script src="http://code.jquery.com/jquery-latest.js"></script>
   <title>CODING</title>
 </head>
 <body style="margin:0">
@@ -31,7 +29,7 @@
           <li><img src="image/인공지능 특강.jpg" width="100%" height="100%"></li>
         </div>
         <div class="item third">
-          <li><img src="image/코코딩.jpg".jpg" width="100%" height="100%"></li>
+          <li><img src="image/코코딩.jpg" width="100%" height="100%"></li>
         </div>
       </div>
     </div>
@@ -68,8 +66,10 @@
     <img
       id="info_img2"
       class="img-info"
-      src="image/인포그래픽/002.png"
+      src="image/인포그래픽/딥페이크/0001.jpg"
       onmouseenter="infoZoomIn(event, 1)"
+      onmouseleave="infoZoomOut(event, 1)"
+      onclick="goTog(event,1)"
     />
     <img
     id="info_img3"
@@ -86,7 +86,7 @@
       <img
         class="campaign_in"
         id="c_detail_img"
-        src="image/인포그래픽/비트코인 1짤.jpg"
+        src="image/인포그래픽/비트코인 1짤.png"
         height="550px"
       />
       <div class="campaign_in" id="c_detail_text">
