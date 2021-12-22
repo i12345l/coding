@@ -1,13 +1,19 @@
-#조윤성_도서_1{
-    width: 20%;
+.Select_Book{
+    height: 30%;
     cursor:pointer;
 }
 
-#조윤성_도서_2{
-    width: 5%;
+.Book_In_Modal{
+    position:absolute;
+    top:10%; left: 5%;
+    height: 80%;
 }
 
-#modal{ 
+.Book_In_Text{
+    float: right;
+}
+
+.Book_Modal{ 
     position:fixed; 
     background: rgba(0,0,0,0.4); 
     width: 100%; height: 100%;
@@ -16,17 +22,17 @@
     z-index: 100;
 }
 
-#modal_content{
-    width:400px; height:200px;
+.Book_Modal_Content{
+    width:70%; height:60%;
     background:#fff; border-radius:10px;
-    position:relative; top:50%; left:50%;
+    position:relative; top:25%; left:25%;
     margin-top:-100px; margin-left:-200px;
     text-align:center;
     box-sizing:border-box; padding:74px 0;
     line-height:23px;
 }
 
-#Book_X_Button{
+.Book_X_Button{
     background-color: white;
     border: none;
     position: absolute;
