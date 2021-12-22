@@ -1,7 +1,21 @@
-.Select_Book{
+.Select_Book_Area{
     position: relative;
-    height: 30%;
-    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Select_Book{
+    height: 250px;
+    margin: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Book_In_Text{
+    border: 10px;
+    position: relative;
+    right: 10%; top:0px;
 }
 
 .Book_In_Modal{
