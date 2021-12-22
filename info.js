@@ -21,7 +21,7 @@ window.onload=function(){
   goTog(event, 0);
 }
 
-function infoZoomIn(event, n) {
+function infoZoomIn(event) {
   event.target.style.zIndex = 1;
   event.target.style.transform = "scale(1.2)";
   event.target.style.transition = "all 0.5s";
