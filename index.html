@@ -37,11 +37,20 @@
   <div id="book_area">
     1인 1주제 책소개
     <hr width="1000px">
-    <img id="조윤성_도서"
+    <img id="조윤성_도서_1"
       src="image/도서/조윤성 인공지능을 위한 수학.jpg"
-      onmouseenter="zoomIn(event)"
-      onmouseleave="zoomOut(event)"
+      onmouseenter="bookZoomIn(event,0)"
+      onmouseleave="bookZoomOut(event)"
+      onclick="BookClickOn(event)"
     >
+    <div id="modal">
+      <div id="modal_content" >
+        <button id="Book_X_Button" onclick="BookClickOff(event)">X</button>
+        <img id="조윤성_도서_2" src="src=image/도서/조윤성 인공지능을 위한 수학.jpg">
+        여기에 모달창 내용을 적어줍니다.<br>
+        이미지여도 좋고 글이어도 좋습니다.
+      </div>
+    </div>
   </div>
 
   <div id="campaign_area">
