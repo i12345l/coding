@@ -16,6 +16,7 @@
     padding: 18px;
     font-size: 20px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
 .Select_Book_Area{
@@ -26,7 +27,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 50px;
 }
 
 .Select_Book{
@@ -41,14 +42,19 @@
     border: 10px;
     position: relative;
     float: right;
-    right: 18%; top:5%;
+    right: -20%; top:5%;
+    width: 500px;
+    margin-right: 20px;
+    font-size: 80%;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .Book_In_Modal{
     max-width: 25%;
     position: relative;
     float: left;
-    top:20px; left:80px;
+    top:20px; left:40px;
 }
 
 .Book_Modal{ 
@@ -67,6 +73,7 @@
     transform: translate(-50%,-50%);
     box-sizing:border-box; padding:50px 0;
     text-align: right;
+    display: flex;
     line-height:23px;
 }
 
