@@ -1,11 +1,24 @@
+#book_area{
+    margin-top: 100px;
+}
+
+#book_title{
+    background-color:#c1c1c1;
+    color:white;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .Select_Book_Area{
+    background-color: #f2f2f2;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .Select_Book{
@@ -24,10 +37,10 @@
 }
 
 .Book_In_Modal{
-    max-width: 28%;
+    max-width: 25%;
     position: relative;
     float: left;
-    top:20px; left:30px;
+    top:20px; left:80px;
 }
 
 .Book_Modal{ 
