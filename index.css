@@ -46,20 +46,7 @@ html {
 .main_banner input[type=radio]{
   display: none;
 }
-ul.imgs{
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-ul.imgs li{
-  position: absolute;
-  opacity: 0;
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  transition-delay: 0.9s;
-}
+
 
 #book_area{
   text-align: center;
@@ -82,3 +69,5 @@ a{
 body{
   padding-top: 6.5%;
 }
+
+.vueCarousel{display: none;}
