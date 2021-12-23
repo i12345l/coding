@@ -62,8 +62,8 @@ body {
 }
 
 .card .card-body .mail {
-    font-size: 14px;
-    color: #c2bdbd;
+    font-size: 16px;
+    color: #ffffff;
 }
 
 .card .card-body .mail:hover {
@@ -118,3 +118,7 @@ body {
 .card .card-footer .count {
     font-size: 14px;
 }
+
+.card-footer{
+    font-weight: bold;
+  }
