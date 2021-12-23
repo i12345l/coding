@@ -1,6 +1,7 @@
 .card {
+    flex-basis: 100%;
     max-width: 250px;
-    margin: 150px auto 0;
+    margin: 30px auto 0;
     background-color: #42515a;
     box-shadow: 0 10px 90px #00000024;
     text-align: center;
@@ -81,6 +82,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 30px;
+    height: 80px;
 }
 
 .card .social-links .social-icon {
