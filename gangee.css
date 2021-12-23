@@ -1,14 +1,14 @@
 #lt_detail{
-    height: 510px;
+    height: 450px;
     display: flex;
     justify-content: center;
-    background-color: #252525;
+    background-color: #f0efea;
     color: #a0a19d;
   }
   
   #lt_title{
     height: 70px;
-    background-color: #4b4b4b;
+    background-color: #5B5853;
     color: #e8ece5;
     font-weight:bold;
     font-size: 20px;
@@ -19,12 +19,16 @@
   
   .lt_object{
     width: 800px;
-    margin: 10px;
-    border: solid 1px black;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 5px #b9b8b6;
+    background-color: #b9b8b6;
     border-radius: 3px;
     padding: 0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
   }
  
   
@@ -35,10 +39,19 @@
     justify-content: center;
     height: 70px;
     color : black;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: bold;
-    background-color: aliceblue;
-    border-radius: 1px;
+    border: solid 5px #b9b8b6;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 10px 10px;
     border-bottom: solid 1px black;
+  }
+  
+  .lt_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    color : black;
   }
   
