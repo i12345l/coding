@@ -19,10 +19,12 @@
   align-items: center;
 }
 
-#c_detail_text{
+#c_texts{
   max-width: 600px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img-info {
@@ -33,6 +35,11 @@
 .campaign_in{
   padding:20px;
   font-size: 20px;
+}
+
+#c_detail_t{
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 #campaign_detail{

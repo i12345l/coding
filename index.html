@@ -1,5 +1,11 @@
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="profile.css">
+
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="campaign.css" />
   <link rel="stylesheet" href="book.css" />
@@ -15,6 +21,7 @@
 <body style="margin:0">
   <div id="logo_area">
     <a href="#logo" class="logo_button" width="100px" style="margin-top:35px;"><img src="image/CODING_LOGO.png"/ width="100px"> </a>
+    <a href="#Profile_Area" class="logo_button">동아리원 목록</a>
     <a href="#book_area" class="logo_button">책 소개 활동</a>
     <a href="#campaign_area" class="logo_button">캠페인</a>
     <a href="#lecture_area" class="logo_button">신기술 강의</a>
@@ -37,8 +44,25 @@
     <script src="./dist/jquery.js"></script>
     <script src="./dist/owl.carousel.min.js"></script>
     <script src="./js/app.js"></script>
-  <div id="Coding_Person">
-    일단 조직원 박아버리기
+  <div id="Profile_Area">
+    <div class="card">
+      <div class="card-header">
+        <img src="image/프로필 준비중.jpg" alt="Profile Image" class="profile-img">
+      </div>
+      <div class="card-body">
+          <br>
+          <p class="mail">2124</p>
+          <a class="name">조윤성</a>
+      </div>
+      <div class="social-links">
+        <a href="https://solved.ac/profile/i12345l" target="_blank" class="fa fa-code social-icon"></a>
+        <a href="https://www.codeup.kr/userinfo.php?user=ahs1423" target="_blank" class="fa fa-copyright social-icon"></a>
+        <a href="https://github.com/i12345l" target="_blank" class="fab fa-github social-icon"></a>
+      </div>
+      <div class="card-footer">
+          <p class="count"><span>백준</span> Platinum 5 | <span>코드업</span> 604 문제</p>
+      </div>
+    </div>
   </div>
   <div id="book_area">
     <div id="book_title">1인 1주제 책소개</div>
@@ -102,14 +126,12 @@
         src="image/인포그래픽/비트코인 1짤.png"
         height="550px"
       />
-      <div class="campaign_in" id="c_detail_text">
-        text
-      </div>
-      <div class="campaign_in">
+      <div class="campaign_in" id="c_texts">
+        <div style="font-size: 18px;" id="c_detail_t">블록체인</div>
+        <div id="c_detail_text">text</div>
       </div>
     </div>
   </div>
-
   <div id="lecture_area">
     <div id="lt_title">신기술 강의</div>
     <div id="lt_detail">
@@ -123,39 +145,6 @@
       </div>
     </div>
   </div>
-
-  <div id="online_area">
-    <div id="oj_title">온라인 저지</div>
-    <div id="oj_detail">
-      <div class="oj_object">
-        <div class="oj_name">박용재</div>
-        <div class="tier">
-          <a>백준: 골드 5</a>
-          <a>코드업: 356 문제</a>
-        </div>
-      </div>
-      <div class="oj_object">
-        <div class="oj_name">박재홍</div>
-        <div class="tier">
-          <a>백준: 실버 5</a>
-          <a>코드업: 463 문제</a>
-        </div>
-      </div>
-      <div class="oj_object">
-        <div class="oj_name">조윤성</div>
-        <div class="tier">
-          <a>백준: 플래티넘 5</a>
-          <a>코드업: 604 문제</a>
-        </div>
-      </div>
-      <div class="oj_object">
-        <div class="oj_name">신성빈</div>
-        <div class="tier">
-          <a>백준: 실버 5</a>
-          <a>코드업: 268 문제</a>
-        </div>
-      </div>
-    </div>
   </div>
 </body>
 </html>
