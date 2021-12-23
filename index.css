@@ -67,7 +67,15 @@ a{
 
 
 body{
-  padding-top: 6.5%;
+  padding-top: 3%;
 }
 
 .vueCarousel{display: none;}
+
+#bottom{
+  background-color: #333333;
+  padding: 10px;
+  text-align: right;
+  padding-right: 5%;
+  color: white;
+}
