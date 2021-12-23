@@ -62,10 +62,10 @@ function infoZoomOut(event, n) {
 }
 
 function infoClickOn(event, n){
-  document.getElementById("campaign_detail").style.margin = "15px 0px";
+  document.getElementById("campaign_detail").style.marginTop = "15px";
   document.getElementById("campaign_detail").style.padding = "30px 0px";
   document.getElementById("campaign_detail").style.visibility = "visible";
-  document.getElementById("campaign_detail").style.height = "80vh";
+  document.getElementById("campaign_detail").style.height = "650px";
 
   var x=document.getElementsByClassName("campaign_in");
   for(var i=0; i<x.length; i++){
@@ -80,7 +80,7 @@ function infoClickOff(event){
   for(var i=0; i<x.length; i++){
     x[i].style.animation="fadeout 0.3s";
   }
-  document.getElementById("campaign_detail").style.margin = "0px 0px";
+  document.getElementById("campaign_detail").style.marginTop = "0px";
   document.getElementById("campaign_detail").style.padding = "0px 0px";
   document.getElementById("campaign_detail").style.visibility = "hidden";
   document.getElementById("campaign_detail").style.height = "0vh";
