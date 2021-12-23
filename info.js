@@ -71,8 +71,10 @@ function infoClickOn(event, n){
   var x=document.getElementsByClassName("campaign_in");
   for(var i=0; i<x.length; i++){
     x[i].style.animation="fadein 1s";
+    x[i].style.opacity="1";
     x[i].style.zIndex="0";
   }
+  document.getElementById("c_texts").style.zIndex="0";
   document.getElementById("c_detail_img").src=infoImg[n];
   document.getElementById("c_detail_text").innerText=infoTxt[n];
   document.getElementById("c_detail_t").innerText=infoTxtT[n];
@@ -81,11 +83,12 @@ function infoClickOn(event, n){
 function infoClickOff(event){
   var x=document.getElementsByClassName("campaign_in");
   for(var i=0; i<x.length; i++){
-    x[i].style.animation="fadeout 1.5s";
-    x[i].style.zIndex="-3";
+    x[i].style.animation="fadeout 0.5s";
+    x[i].style.opacity="0";
   }
+  document.getElementById("c_texts").style.zIndex="-1";
   document.getElementById("campaign_detail").style.marginTop = "0px";
   document.getElementById("campaign_detail").style.padding = "0px 0px";
   document.getElementById("campaign_detail").style.visibility = "hidden";
-  document.getElementById("campaign_detail").style.height = "0vh";
+  document.getElementById("campaign_detail").style.height = "0px";
 }
